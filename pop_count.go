@@ -35,7 +35,7 @@ func PopCount(x uint64) int {
 		pc[byte(x>>(7*8))])
 }
 
-func main() {
+func pop() {
 	fmt.Println(PopCount(123123))
 	fmt.Println(strconv.FormatInt(int64(26), 2))
 	fmt.Println(strconv.FormatInt(int64(25), 3))
