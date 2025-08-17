@@ -9,7 +9,7 @@ import (
 	"unicode/utf8"
 )
 
-func main() {
+func runeCounter() {
 	counts := make(map[rune]int)
 	var utflen [utf8.UTFMax + 1]byte
 
